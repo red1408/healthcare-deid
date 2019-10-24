@@ -3,5 +3,5 @@ jdk:
 install:
   - cd offline_tools/redactor
   - echo "Running a custom install command"
-  - ./gradlew install
+  - ./gradlew clean install
   - ./gradlew build publishToMavenLocal
